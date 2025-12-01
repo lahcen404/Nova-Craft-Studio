@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DigitalWave Solutions - Accueil</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../public/assets/tailwind css/src/output.css">
 </head>
 <body class="bg-gray-50 text-gray-800">
   <header class="bg-white shadow-md">
