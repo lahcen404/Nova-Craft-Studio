@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     <?php endif; ?>
 
-    <form action="?page=contact" method="POST">
+    <form action="https://formspree.io/f/xwpgqvnn" method="POST">
         
         <div class="mb-4">
             <label for="name" class="block text-gray-700 font-bold mb-2">Full Name *</label>
