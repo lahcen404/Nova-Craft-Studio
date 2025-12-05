@@ -1,7 +1,15 @@
 <?php 
 
 
-    $page = isset($_GET['page']) ? $_GET['page'] : 'home';
+    // $page = isset($_GET['page']) ? $_GET['page'] : 'home';
+
+    $req_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH); // get full path 
+
+    $path = trim($req_uri,'/'); // remove '/'
+
+    $page = empty($path) ? 'home' : $path;
+
+
 
     $routes = [
         'home' => 'Home - NovaCraft Studio',
